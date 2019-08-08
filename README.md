@@ -17,6 +17,9 @@ I built a Saas platform and used a bootstrap theme for it. I decided I wanted to
 3. Run `npm install`.
 4. Compile the assets with `npm run dev`.
 
+## Screenshots
+![Tailwind Project Dashboard](/public/images/screenshots/tailwind-project-screenshot.png?raw=true){:height="50%" width="50%"}
+
 ## Contributing
 
 Thank you for considering contributing to this project! If you would like to contribute feel free to create a pull request and once approved I will merge them.
