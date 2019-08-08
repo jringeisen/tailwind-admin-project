@@ -2,6 +2,21 @@
 
 I built a Saas platform and used a bootstrap theme for it. I decided I wanted to learn Tailwind CSS so I figured why not rebuild the admin panel for the Saas platform using Tailwind while learning it at the same time.
 
+## Platforms being used to build the project
+* Laravel
+* Vue.js
+* Tailwind
+
+## What needs to be done
+* Left navigation bar needs functionality, doesn't currently work. It needs to have nested levels.
+* Name in upper right corner needs functionality, doesn't currently drop down.
+
+## Getting started
+1. Pull down the repository.
+2. Run `composer install`.
+3. Run `npm install`.
+4. Compile the assets with `npm run dev`.
+
 ## Contributing
 
 Thank you for considering contributing to this project! If you would like to contribute feel free to create a pull request and once approved I will merge them.
