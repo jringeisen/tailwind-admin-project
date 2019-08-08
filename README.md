@@ -7,6 +7,10 @@ I built a Saas platform and used a bootstrap theme for it. I decided I wanted to
 * Vue.js
 * Tailwind
 
+## Current packages being used
+* [vue-chartjs](https://vue-chartjs.org/)
+* [vue-full-calendar](https://www.npmjs.com/package/vue-full-calendar)
+
 ## What needs to be done
 * Left navigation bar needs functionality, doesn't currently work. It needs to have nested levels.
 * Name in upper right corner needs functionality, doesn't currently drop down.
