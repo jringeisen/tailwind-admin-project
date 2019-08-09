@@ -18,6 +18,7 @@ I built a Saas platform and used a bootstrap theme for it. I decided I wanted to
 ## Getting started
 1. Pull down the repository.
 2. Run `composer install`.
+3. Run `artisan key:generate`.
 3. Run `npm install`.
 4. Compile the assets with `npm run dev`.
 

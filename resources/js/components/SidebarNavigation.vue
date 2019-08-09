@@ -1,15 +1,17 @@
 <template>
     <ul class="text-white text-xs font-light">
-        <li class="p-2 cursor-pointer" v-for="(item, index) in menu.parent" :key="index">
-            <span @click.prevent="item.show = !item.show" class="hover:font-medium">
+        <li class="p-2 cursor-pointer hover:bg-gray-800" :class="{ 'bg-gray-800': item.show }" v-for="(item, index) in menu.parent" :key="index">
+            <div @click.prevent="item.show = !item.show" class="hover:font-medium">
                 <i :class="item.icon+' float-left mr-3 w-3 pt-1 leading-loose'"></i> 
                 {{ item.name }} 
                 <i v-if="item.child && !item.show" class="fas fa-caret-right float-right pt-1"></i>
                 <i v-if="item.child && item.show" class="fas fa-caret-down float-right pt-1"></i>
-            </span>
+            </div>
+            <transition name="slide-fade">
             <ul class="ml-6" v-if="item.child && item.show">
                 <li class="p-1 hover:font-medium" v-for="(child, index) in item.child" :key="index">- {{ child }}</li>
             </ul>
+            </transition>
         </li>
     </ul>
 </template>
