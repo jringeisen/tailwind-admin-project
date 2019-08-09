@@ -2,6 +2,8 @@
 
 I built a Saas platform and used a bootstrap theme for it. I decided I wanted to learn Tailwind CSS so I figured why not rebuild the admin panel for the Saas platform using Tailwind while learning it at the same time.
 
+My goal for this project is to build it without using jQuery and only using Vue. I removed jQuery from the base application but full-calendar pulls in jQuery so if anyone knows an alternative that doesn't use jQuery that would be great.
+
 ## Platforms being used to build the project
 * Laravel
 * Vue.js
@@ -12,8 +14,14 @@ I built a Saas platform and used a bootstrap theme for it. I decided I wanted to
 * [vue-full-calendar](https://www.npmjs.com/package/vue-full-calendar)
 
 ## What needs to be done
-* Improve the transition on the dropdown of the left navigation bar.
 * Name in upper right corner needs functionality, doesn't currently drop down.
+* Add packages for things such as date/time picker, color picker, autocomplete, etc..
+* Build tailwind components for the following:
+    * Panels
+    * Buttons
+    * Modals
+    * Alerts
+    * Cards
 
 ## Getting started
 1. Pull down the repository.
