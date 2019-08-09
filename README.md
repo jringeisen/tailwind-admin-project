@@ -12,7 +12,7 @@ I built a Saas platform and used a bootstrap theme for it. I decided I wanted to
 * [vue-full-calendar](https://www.npmjs.com/package/vue-full-calendar)
 
 ## What needs to be done
-* Left navigation bar needs functionality, doesn't currently work. It needs to have nested levels.
+* Improve the transition on the dropdown of the left navigation bar.
 * Name in upper right corner needs functionality, doesn't currently drop down.
 
 ## Getting started

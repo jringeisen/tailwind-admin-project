@@ -25,9 +25,9 @@ Vue.use(FullCalendar)
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('income-chart', require('./components/IncomeChart.vue').default);
 Vue.component('calendar', require('./components/Calendar.vue').default);
+Vue.component('sidebar-nav', require('./components/SidebarNavigation.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

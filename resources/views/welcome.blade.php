@@ -38,29 +38,17 @@
             </div>
             {{-- End Top Navbar --}}
 
-            <div class="flex h-full">
+            <div class="flex h-full" id="app">
                 {{-- Start Left Side Nav --}}
                 <div class="left-side-nav">
                     <div class="p-5">
-                        <ul class="text-white text-xs font-light">
-                            <li class="p-2"><i class="fa fa-user float-left mr-3 w-3 pt-1 leading-loose"></i> Dashboard</li>
-                            <li class="p-2"><i class="fa fa-unlock-alt float-left mr-3 w-3 pt-1 leading-loose"></i> Admin</li>
-                            <li class="p-2"><i class="fa fa-briefcase float-left mr-3 w-3 pt-1 leading-loose"></i> Business <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-money-bill-alt float-left mr-3 w-3 pt-1 leading-loose"></i> Finances <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-users float-left mr-3 w-3 pt-1 leading-loose"></i> Clients <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-list float-left mr-3 w-3 pt-1 leading-loose"></i> Sessions <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-wrench float-left mr-3 w-3 pt-1 leading-loose"></i> Customize <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-cog float-left mr-3 w-3 pt-1 leading-loose"></i> Account <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-archive float-left mr-3 w-3 pt-1 leading-loose"></i> Archived Data <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-chart-bar float-left mr-3 w-3 pt-1 leading-loose"></i> Reports <i class="fas fa-caret-right float-right pt-1"></i></li>
-                            <li class="p-2"><i class="fa fa-download float-left mr-3 w-3 pt-1 leading-loose"></i> Freebies <i class="fas fa-caret-right float-right pt-1"></i></li>
-                        </ul>
+                        <sidebar-nav />
                     </div>
                 </div>
                 {{-- End Right Side Nav --}}
 
                 {{-- Start Main Content --}}
-                <div class="w-full bg-gray-200 mt-12 pt-10 pb-10 overflow-auto" id="app">
+                <div class="w-full bg-gray-200 mt-12 pt-10 pb-10 overflow-auto">
                     <div class="container mx-auto lg:flex md:flex">
                         <div class="gray-card lg:w-1/3 md:w-1/3">
                             <div class="card-header">
