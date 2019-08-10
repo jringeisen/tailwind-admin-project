@@ -22,11 +22,7 @@
             </div>
 
             <div class="flex h-full">
-                <div class="left-side-nav">
-                    <div class="p-5">
-                        <sidebar-nav />
-                    </div>
-                </div>
+                <sidebar-nav></sidebar-nav>
 
                 {{-- Start Main Content --}}
                 <div class="w-full bg-gray-200 mt-12 pt-10 pb-10 overflow-auto">
@@ -67,7 +63,7 @@
                         </div>
                     </div>
                     <div class="container mx-auto lg:flex md:flex">
-                        <div class="gray-card lg:w-1/2 md:w-1/2">
+                        <div class="gray-card w-full lg:w-1/2">
                             <div class="card-header">
                                 <p>Calendar</p>
                             </div>
@@ -75,84 +71,84 @@
                                 <calendar />
                             </div>
                         </div>
-                        <div class="gray-card lg:w-1/2 md:w-1/2">
+                        <div class="gray-card w-full lg:w-1/2">
                             <div class="card-header">
                                 <p>Upcoming Sessions</p>
                             </div>
                             <div class="card-body">
-                                <table class="w-full">
-                                    <tbody class="flex flex-col justify-between overflow-y-scroll w-full" style="height: 359px">
-                                        <tr class="text-sm hover:shadow">
+                                <table class="w-full text-xs">
+                                    <tbody class="flex flex-col justify-between overflow-y-scroll overflow-x-scroll w-full" style="height: 359px">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
                                             <td class="p-4 w-auto">$400.00</td>
                                             <td class="p-4 w-auto"><a href="" class="gray-pill">Paid In Full</a></td>
                                         </tr>
-                                        <tr class="text-sm hover:shadow">
+                                        <tr class="hover:shadow cursor-pointer">
                                             <td class="p-4 w-auto">Session with Jon</td>
                                             <td class="p-4 w-auto">August 13, 2019 5:30 PM</td>
                                             <td class="p-4 w-auto">Newborn</td>
