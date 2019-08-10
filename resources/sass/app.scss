@@ -27,6 +27,7 @@
     @apply .rounded-full .py-1 .px-2 .bg-gray-600 .antialiased .shadow .text-white .text-xs
 }
 
+// Card styling
 .gray-card {
     @apply .bg-white .rounded .h-auto .shadow .m-2 .font-light
 }
@@ -37,4 +38,21 @@
 
 .gray-card .card-body h1 {
     @apply .pl-2 .pt-3 .pb-3 .font-medium .text-3xl .text-gray-700
+}
+
+// Table styling
+.table {
+    @apply .w-full .text-xs
+}
+
+.table > tbody {
+    @apply .overflow-y-scroll
+}
+
+.table > tbody > tr {
+    @apply .table-row
+}
+
+.table > tbody > tr > td {
+    @apply .table-cell
 }
