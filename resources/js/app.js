@@ -31,6 +31,7 @@ Vue.component('calendar', require('./components/Calendar.vue').default);
 
 // include partial vue components below;
 Vue.component('sidebar-nav', require('./partials/SidebarNavigation.vue').default);
+Vue.component('topbar-nav', require('./partials/TopbarNavigation.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

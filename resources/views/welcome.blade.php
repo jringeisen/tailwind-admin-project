@@ -16,36 +16,17 @@
         <script src="https://kit.fontawesome.com/6229d48325.js"></script>
     </head>
     <body>
-        <div class="flex flex-col h-screen bg-gray-200">
-            {{-- Start Top Navbar --}}
+        <div class="flex flex-col h-screen bg-gray-200" id="app">
             <div class="top-navbar">
-                <a href="" class="logo">The Essential Studio Manager</a>
-                <div class="flex justify-between p-3 text-sm">
-                    <div class="px-4">
-                        <a href="" class="gray-pill">Administrator</a>
-                    </div>
-                    <div class="px-4 mt-1">
-                        <i class="fa fa-bell text-xl"></i>
-                        <span class="absolute pr-1 pl-1 -mt-8 ml-2 bg-gray-600 rounded-full text-xs text-white">0</span>
-                    </div>
-                    <div class="-mt-1 px-4">
-                        <img class="w-8 rounded-full" src="{{ asset('images/jon.png') }}">
-                    </div>
-                    <div>
-                        <a href="">Jonathon Ringeisen <i class="fas fa-caret-down"></i></a>
-                    </div>
-                </div>
+                <topbar-nav />
             </div>
-            {{-- End Top Navbar --}}
 
-            <div class="flex h-full" id="app">
-                {{-- Start Left Side Nav --}}
+            <div class="flex h-full">
                 <div class="left-side-nav">
                     <div class="p-5">
                         <sidebar-nav />
                     </div>
                 </div>
-                {{-- End Right Side Nav --}}
 
                 {{-- Start Main Content --}}
                 <div class="w-full bg-gray-200 mt-12 pt-10 pb-10 overflow-auto">

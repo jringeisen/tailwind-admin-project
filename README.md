@@ -14,7 +14,7 @@ My goal for this project is to build it without using jQuery and only using Vue.
 * [vue-full-calendar](https://www.npmjs.com/package/vue-full-calendar)
 
 ## What needs to be done
-* Name in upper right corner needs functionality, doesn't currently drop down.
+* Make it mobile friendly. There are aspects of the layout that aren't mobile friendly yet.
 * Add packages for things such as date/time picker, color picker, autocomplete, etc..
 * Build tailwind components for the following:
     * Panels
