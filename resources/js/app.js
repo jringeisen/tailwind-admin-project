@@ -34,11 +34,34 @@ Vue.component('sidebar-nav', require('./partials/SidebarNavigation.vue').default
 Vue.component('topbar-nav', require('./partials/TopbarNavigation.vue').default);
 
 /**
+ * Use this section to create your custom directives.
+ *
+ */
+
+// This directive triggers when clicking outside of an element.
+// For example, dropdowns will go away when you click outside of the element.
+Vue.directive('click-outside', {
+    bind: function (el, binding, vnode) {
+        el.clickOutsideEvent = function (event) {
+            // here I check that click was outside the el and his childrens
+            if (!(el == event.target || el.contains(event.target))) {
+                // and if it did, call method provided in attribute value
+                vnode.context[binding.expression](event);
+            }
+        };
+        document.body.addEventListener('click', el.clickOutsideEvent)
+    },
+    unbind: function (el) {
+        document.body.removeEventListener('click', el.clickOutsideEvent)
+    },
+});
+
+/**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
 const app = new Vue({
-    el: '#app',
+    el: '#app'
 });
