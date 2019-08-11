@@ -56,3 +56,7 @@
 .table > tbody > tr > td {
     @apply .table-cell
 }
+
+.active {
+    @apply .font-medium
+}

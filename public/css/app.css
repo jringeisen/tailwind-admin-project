@@ -13072,6 +13072,10 @@ be a descendant of the grid when it is being dragged.
   display: table-cell;
 }
 
+.active {
+  font-weight: 500;
+}
+
 @media (min-width: 640px){
   .sm\:sr-only{
     position: absolute;
