@@ -49,8 +49,12 @@
 }
 
 // Active class for router
-.active {
-    @apply .font-medium .bg-gray-800
+.parent-active {
+    @apply .bg-gray-800
+}
+
+.child-active {
+    @apply .font-semibold
 }
 
 // Alerts

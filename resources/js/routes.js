@@ -15,7 +15,12 @@ export default {
             path: '/ui_elements',
             component: UiElements,
             title: 'UI Elements',
-            icon: 'fa fa-user'
+            icon: 'fa fa-user',
+            children: [
+                { path: '/ui_elements/1', title: 'UI Elements 1' },
+                { path: '/ui_elements/2', title: 'UI Elements v2' },
+                { path: '/ui_elements/3', title: 'UI Elements v3' }
+            ]
         }
     ]
 }
