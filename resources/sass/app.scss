@@ -23,10 +23,6 @@
     @apply .flex-grow .h-screen .w-11/12 .mt-12 .bg-gray-200 .pt-10 .ml-56
 }
 
-.gray-pill {
-    @apply .rounded-full .py-1 .px-2 .bg-gray-600 .antialiased .shadow .text-white .text-xs
-}
-
 // Card styling
 .gray-card {
     @apply .bg-white .rounded .h-auto .shadow .m-2 .font-light
@@ -89,4 +85,45 @@
 
 .alert-heading {
     color: inherit;
+}
+
+// Labels
+.round-blue-label {
+    @apply .rounded-full .py-1 .px-2 .bg-blue-600 .font-medium .shadow .text-white .text-xs
+}
+
+.round-gray-label {
+    @apply .rounded-full .py-1 .px-2 .bg-gray-600 .font-medium .shadow .text-white .text-xs
+}
+
+.round-green-label {
+    @apply .rounded-full .py-1 .px-2 .bg-green-600 .font-medium .shadow .text-white .text-xs
+}
+
+.round-red-label {
+    @apply .rounded-full .py-1 .px-2 .bg-red-600 .font-medium .shadow .text-white .text-xs
+}
+
+.round-yellow-label {
+    @apply .rounded-full .py-1 .px-2 .bg-yellow-600 .font-medium .shadow .text-white .text-xs
+}
+
+.square-blue-label {
+    @apply .py-1 .px-2 .bg-blue-600 .font-medium .shadow .text-white .text-xs
+}
+
+.square-gray-label {
+    @apply .py-1 .px-2 .bg-gray-600 .font-medium .shadow .text-white .text-xs
+}
+
+.square-green-label {
+    @apply .py-1 .px-2 .bg-green-600 .font-medium .shadow .text-white .text-xs
+}
+
+.square-red-label {
+    @apply .py-1 .px-2 .bg-red-600 .font-medium .shadow .text-white .text-xs
+}
+
+.square-yellow-label {
+    @apply .py-1 .px-2 .bg-yellow-600 .font-medium .shadow .text-white .text-xs
 }

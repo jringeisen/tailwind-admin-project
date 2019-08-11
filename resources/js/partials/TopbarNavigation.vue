@@ -6,7 +6,7 @@
         </div>
         <div class="flex p-3 text-sm">
             <div class="px-4 hidden xl:block lg:block md:block">
-                <span class="gray-pill">Administrator</span>
+                <span class="round-gray-label">Administrator</span>
             </div>
             <div class="px-4 mt-1" v-click-outside="clickedOutsideBell">
                 <i class="fa fa-bell text-xl cursor-pointer" @click.prevent="toggleBell = !toggleBell"></i>
