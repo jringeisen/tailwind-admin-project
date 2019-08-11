@@ -14,7 +14,11 @@
                 <ul class="absolute w-64 -ml-56 xl:-ml-24 lg:-ml-24 md:-ml-24">
                     <transition name="slide-fade">
                     <ul class="bg-white px-3 shadow-lg mt-3" v-if="toggleBell">
-                        <li class="p-1 hover:bg-gray-300 -mx-3 px-3 text-center"> -- Empty --</li>
+                        <li class="-mx-3 px-3 pt-3 pb-1 text-center">
+                            <div class="gray-alert text-center" role="alert">
+                                -- Empty --
+                            </div>
+                        </li>
                     </ul>
                     </transition>
                 </ul>

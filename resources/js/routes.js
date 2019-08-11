@@ -6,18 +6,16 @@ export default {
     mode: 'history',
     routes: [
         {
-            path: '/',
+            path: '/dashboard',
             component: Dashboard,
             title: 'Dashboard',
-            icon: 'fa fa-th-large',
-            show: false
+            icon: 'fa fa-th-large'
         },
         {
             path: '/ui_elements',
             component: UiElements,
             title: 'UI Elements',
-            icon: 'fa fa-user',
-            show: false
+            icon: 'fa fa-user'
         }
     ]
 }
