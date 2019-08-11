@@ -6,7 +6,7 @@
         </div>
         <div class="flex p-3 text-sm">
             <div class="px-4 hidden xl:block lg:block md:block">
-                <span class="round-gray-label">Administrator</span>
+                <span class="label gray-label rounded-full">Administrator</span>
             </div>
             <div class="px-4 mt-1" v-click-outside="clickedOutsideBell">
                 <i class="fa fa-bell text-xl cursor-pointer" @click.prevent="toggleBell = !toggleBell"></i>
@@ -15,7 +15,7 @@
                     <transition name="slide-fade">
                     <ul class="bg-white px-3 shadow-lg mt-3" v-if="toggleBell">
                         <li class="-mx-3 px-3 pt-3 pb-1 text-center">
-                            <div class="gray-alert text-center" role="alert">
+                            <div class="alert gray-alert text-center" role="alert">
                                 -- Empty --
                             </div>
                         </li>

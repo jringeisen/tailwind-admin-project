@@ -6,19 +6,19 @@
                     <p>Alerts</p>
                 </div>
                 <div class="card-body p-3">
-                    <div class="blue-alert" role="alert">
+                    <div class="alert blue-alert" role="alert">
                         This is a blue alert!
                     </div>
-                    <div class="gray-alert" role="alert">
+                    <div class="alert gray-alert" role="alert">
                         This is a gray alert!
                     </div>
-                    <div class="green-alert" role="alert">
+                    <div class="alert green-alert" role="alert">
                         This is a green alert!
                     </div>
-                    <div class="red-alert" role="alert">
+                    <div class="alert red-alert" role="alert">
                         This is a red alert!
                     </div>
-                    <div class="yellow-alert" role="alert">
+                    <div class="alert yellow-alert" role="alert">
                         This is a <a href="" class="alert-link">yellow</a> alert with an alert-link class.
                     </div>
                 </div>
@@ -29,18 +29,18 @@
                 </div>
                 <div class="card-body p-3">
                     <div class="container mb-2">
-                        <span class="round-blue-label">Blue Label</span>
-                        <span class="round-gray-label">Gray Label</span>
-                        <span class="round-green-label">Green Label</span>
-                        <span class="round-red-label">Red Label</span>
-                        <span class="round-yellow-label">Yellow Label</span>
+                        <span class="label blue-label rounded-full">Blue Label</span>
+                        <span class="label gray-label rounded-full">Gray Label</span>
+                        <span class="label green-label rounded-full">Green Label</span>
+                        <span class="label red-label rounded-full">Red Label</span>
+                        <span class="label yellow-label rounded-full">Yellow Label</span>
                     </div>
                     <div class="container">
-                        <span class="square-blue-label">Blue Label</span>
-                        <span class="square-gray-label">Gray Label</span>
-                        <span class="square-green-label">Green Label</span>
-                        <span class="square-red-label">Red Label</span>
-                        <span class="square-yellow-label">Yellow Label</span>
+                        <span class="label blue-label">Blue Label</span>
+                        <span class="label gray-label">Gray Label</span>
+                        <span class="label green-label">Green Label</span>
+                        <span class="label red-label">Red Label</span>
+                        <span class="label yellow-label">Yellow Label</span>
                     </div>
                 </div>
             </div>

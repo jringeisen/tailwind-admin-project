@@ -80652,9 +80652,14 @@ var staticRenderFns = [
                 _c("td", { staticClass: "p-4" }, [_vm._v("$400.00")]),
                 _vm._v(" "),
                 _c("td", { staticClass: "p-4" }, [
-                  _c("a", { staticClass: "gray-pill", attrs: { href: "" } }, [
-                    _vm._v("Paid In Full")
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "label gray-label rounded-full",
+                      attrs: { href: "" }
+                    },
+                    [_vm._v("Paid In Full")]
+                  )
                 ])
               ]),
               _vm._v(" "),
@@ -80670,9 +80675,14 @@ var staticRenderFns = [
                 _c("td", { staticClass: "p-4" }, [_vm._v("$400.00")]),
                 _vm._v(" "),
                 _c("td", { staticClass: "p-4" }, [
-                  _c("a", { staticClass: "gray-pill", attrs: { href: "" } }, [
-                    _vm._v("Paid In Full")
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "label gray-label rounded-full",
+                      attrs: { href: "" }
+                    },
+                    [_vm._v("Paid In Full")]
+                  )
                 ])
               ]),
               _vm._v(" "),
@@ -80688,9 +80698,14 @@ var staticRenderFns = [
                 _c("td", { staticClass: "p-4" }, [_vm._v("$400.00")]),
                 _vm._v(" "),
                 _c("td", { staticClass: "p-4" }, [
-                  _c("a", { staticClass: "gray-pill", attrs: { href: "" } }, [
-                    _vm._v("Paid In Full")
-                  ])
+                  _c(
+                    "a",
+                    {
+                      staticClass: "label gray-label rounded-full",
+                      attrs: { href: "" }
+                    },
+                    [_vm._v("Paid In Full")]
+                  )
                 ])
               ])
             ])
@@ -80736,21 +80751,29 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "card-body p-3" }, [
-            _c("div", { staticClass: "blue-alert", attrs: { role: "alert" } }, [
-              _vm._v(
-                "\n                    This is a blue alert!\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "gray-alert", attrs: { role: "alert" } }, [
-              _vm._v(
-                "\n                    This is a gray alert!\n                "
-              )
-            ]),
+            _c(
+              "div",
+              { staticClass: "alert blue-alert", attrs: { role: "alert" } },
+              [
+                _vm._v(
+                  "\n                    This is a blue alert!\n                "
+                )
+              ]
+            ),
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "green-alert", attrs: { role: "alert" } },
+              { staticClass: "alert gray-alert", attrs: { role: "alert" } },
+              [
+                _vm._v(
+                  "\n                    This is a gray alert!\n                "
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "alert green-alert", attrs: { role: "alert" } },
               [
                 _vm._v(
                   "\n                    This is a green alert!\n                "
@@ -80758,15 +80781,19 @@ var staticRenderFns = [
               ]
             ),
             _vm._v(" "),
-            _c("div", { staticClass: "red-alert", attrs: { role: "alert" } }, [
-              _vm._v(
-                "\n                    This is a red alert!\n                "
-              )
-            ]),
+            _c(
+              "div",
+              { staticClass: "alert red-alert", attrs: { role: "alert" } },
+              [
+                _vm._v(
+                  "\n                    This is a red alert!\n                "
+                )
+              ]
+            ),
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "yellow-alert", attrs: { role: "alert" } },
+              { staticClass: "alert yellow-alert", attrs: { role: "alert" } },
               [
                 _vm._v("\n                    This is a "),
                 _c("a", { staticClass: "alert-link", attrs: { href: "" } }, [
@@ -80785,45 +80812,45 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "card-body p-3" }, [
             _c("div", { staticClass: "container mb-2" }, [
-              _c("span", { staticClass: "round-blue-label" }, [
+              _c("span", { staticClass: "label blue-label rounded-full" }, [
                 _vm._v("Blue Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "round-gray-label" }, [
+              _c("span", { staticClass: "label gray-label rounded-full" }, [
                 _vm._v("Gray Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "round-green-label" }, [
+              _c("span", { staticClass: "label green-label rounded-full" }, [
                 _vm._v("Green Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "round-red-label" }, [
+              _c("span", { staticClass: "label red-label rounded-full" }, [
                 _vm._v("Red Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "round-yellow-label" }, [
+              _c("span", { staticClass: "label yellow-label rounded-full" }, [
                 _vm._v("Yellow Label")
               ])
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "container" }, [
-              _c("span", { staticClass: "square-blue-label" }, [
+              _c("span", { staticClass: "label blue-label" }, [
                 _vm._v("Blue Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "square-gray-label" }, [
+              _c("span", { staticClass: "label gray-label" }, [
                 _vm._v("Gray Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "square-green-label" }, [
+              _c("span", { staticClass: "label green-label" }, [
                 _vm._v("Green Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "square-red-label" }, [
+              _c("span", { staticClass: "label red-label" }, [
                 _vm._v("Red Label")
               ]),
               _vm._v(" "),
-              _c("span", { staticClass: "square-yellow-label" }, [
+              _c("span", { staticClass: "label yellow-label" }, [
                 _vm._v("Yellow Label")
               ])
             ])
@@ -80983,7 +81010,7 @@ var render = function() {
                           _c(
                             "div",
                             {
-                              staticClass: "gray-alert text-center",
+                              staticClass: "alert gray-alert text-center",
                               attrs: { role: "alert" }
                             },
                             [
@@ -81085,7 +81112,7 @@ var staticRenderFns = [
       "div",
       { staticClass: "px-4 hidden xl:block lg:block md:block" },
       [
-        _c("span", { staticClass: "round-gray-label" }, [
+        _c("span", { staticClass: "label gray-label rounded-full" }, [
           _vm._v("Administrator")
         ])
       ]

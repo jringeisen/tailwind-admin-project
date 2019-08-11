@@ -58,21 +58,21 @@
                                     <td class="p-4">August 13, 2019 5:30 PM</td>
                                     <td class="p-4">Newborn</td>
                                     <td class="p-4">$400.00</td>
-                                    <td class="p-4"><a href="" class="gray-pill">Paid In Full</a></td>
+                                    <td class="p-4"><a href="" class="label gray-label rounded-full">Paid In Full</a></td>
                                 </tr>
                                 <tr class="hover:shadow cursor-pointer">
                                     <td class="p-4">Session with Jon</td>
                                     <td class="p-4">August 13, 2019 5:30 PM</td>
                                     <td class="p-4">Newborn</td>
                                     <td class="p-4">$400.00</td>
-                                    <td class="p-4"><a href="" class="gray-pill">Paid In Full</a></td>
+                                    <td class="p-4"><a href="" class="label gray-label rounded-full">Paid In Full</a></td>
                                 </tr>
                                 <tr class="hover:shadow cursor-pointer">
                                     <td class="p-4">Session with Jon</td>
                                     <td class="p-4">August 13, 2019 5:30 PM</td>
                                     <td class="p-4">Newborn</td>
                                     <td class="p-4">$400.00</td>
-                                    <td class="p-4"><a href="" class="gray-pill">Paid In Full</a></td>
+                                    <td class="p-4"><a href="" class="label gray-label rounded-full">Paid In Full</a></td>
                                 </tr>
                             </tbody>
                         </table>
