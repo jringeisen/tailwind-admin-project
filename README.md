@@ -31,7 +31,8 @@ My goal for this project is to build it without using jQuery and only using Vue.
 4. Compile the assets with `npm run dev`.
 
 ## Screenshots
-<img src="./public/images/screenshots/tailwind-project-screenshot.png?raw=true" width="30%">
+<img src="./public/images/screenshots/dashboard-screenshot.png?raw=true" width="30%">
+<img src="./public/images/screenshots/ui-screenshot.png?raw=true" width="30%">
 
 ## Contributing
 

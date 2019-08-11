@@ -2,11 +2,6 @@
 
 @tailwind components;
 
-@tailwind utilities;
-
-@import '_full-calendar';
-@import '_transitions';
-
 .top-navbar {
     @apply .flex .justify-between .fixed .w-full .text-gray-700 .bg-white .h-12
 }
@@ -21,10 +16,6 @@
 
 .main-content {
     @apply .flex-grow .h-screen .w-11/12 .mt-12 .bg-gray-200 .pt-10 .ml-56
-}
-
-.gray-pill {
-    @apply .rounded-full .py-1 .px-2 .bg-gray-600 .antialiased .shadow .text-white .text-xs
 }
 
 // Card styling
@@ -56,3 +47,71 @@
 .table > tbody > tr > td {
     @apply .table-cell
 }
+
+// Active class for router
+.parent-active {
+    @apply .bg-gray-800
+}
+
+.child-active {
+    @apply .font-semibold
+}
+
+// Alerts
+.alert {
+ @apply .mb-3 .border .p-3 .rounded .shadow
+}
+
+.blue-alert {
+    @apply .bg-blue-200 .text-blue-800 .border-blue-400
+}
+
+.gray-alert {
+    @apply .bg-gray-200 .text-gray-800 .border-gray-400
+}
+
+.green-alert {
+    @apply .bg-green-200 .text-green-800 .border-green-400
+}
+
+.red-alert {
+    @apply .bg-red-200 .text-red-800 .border-red-400
+}
+
+.yellow-alert {
+    @apply .bg-yellow-200 .text-yellow-800 .border-yellow-400
+}
+
+.alert-link {
+    @apply .font-bold
+}
+
+// Labels
+.label {
+    @apply .py-1 .px-2 .font-medium .shadow .text-white .text-xs
+}
+
+.blue-label {
+    @apply .bg-blue-600
+}
+
+.gray-label {
+    @apply .bg-gray-600
+}
+
+.green-label {
+    @apply .bg-green-600
+}
+
+.red-label {
+    @apply .bg-red-600
+}
+
+.yellow-label {
+    @apply .bg-yellow-600
+}
+
+@tailwind utilities;
+
+@import '_full-calendar';
+@import '_transitions';
