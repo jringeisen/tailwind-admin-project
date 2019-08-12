@@ -88,7 +88,7 @@
 
 // Labels
 .label {
-    @apply .py-1 .px-2 .font-medium .shadow .text-white .text-xs
+    @apply .py-1 .px-2 .font-medium .shadow .text-white .text-xs .whitespace-no-wrap
 }
 
 .blue-label {
@@ -109,6 +109,14 @@
 
 .yellow-label {
     @apply .bg-yellow-600
+}
+
+.flatpickr-input {
+    @apply .block .w-full .p-2 .text-xs .font-normal .rounded .border .leading-normal
+}
+
+.form-control {
+    @apply .block .w-full .p-2 .text-xs .font-normal .rounded .border .leading-normal
 }
 
 @tailwind utilities;

@@ -1,6 +1,8 @@
-import FullCalendar from 'vue-full-calendar'
-import VueRouter from 'vue-router'
-import routes from './routes'
+import FullCalendar from 'vue-full-calendar';
+import VueRouter from 'vue-router';
+import routes from './routes';
+import VueFlatPickr from 'vue-flatpickr-component';
+
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -15,8 +17,9 @@ window.Vue = require('vue');
 /**
  * Include any npm packages that you plan to use in your project below.
  */
-Vue.use(FullCalendar)
-Vue.use(VueRouter)
+Vue.use(FullCalendar);
+Vue.use(VueRouter);
+Vue.use(VueFlatPickr);
 
 /**
  * The following block of code may be used to automatically register your
@@ -66,7 +69,9 @@ Vue.directive('click-outside', {
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+const router = new VueRouter(routes);
+
 const app = new Vue({
-    el: '#app',
-    router: new VueRouter(routes),
+    router,
+    el: '#app'
 });

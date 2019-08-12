@@ -9,8 +9,8 @@
                     <i v-if="route.children && !openedItems[index]" class="fas fa-caret-right pt-1 pl-5"></i>
                     <i v-if="route.children && openedItems[index]" class="fas fa-caret-down pt-1 pl-5"></i>
                     <transition name="slide-fade">
-                    <ul v-if="openedItems[index]">
-                        <router-link @click.native.stop :to="child.path" tag="li" class="p-2 pl-6" active-class="child-active" v-for="(child, index) in route.children" :key="index">- {{ child.title }}</router-link>
+                    <ul class="pt-2" v-if="openedItems[index]">
+                        <router-link @click.native.stop :to="child" tag="li" class="p-1 pl-6" active-class="child-active" v-for="(child, index) in route.children" :key="index">- {{ child.title }}</router-link>
                     </ul>
                     </transition>
                 </router-link>

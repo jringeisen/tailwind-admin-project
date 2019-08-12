@@ -1,5 +1,8 @@
-import Dashboard from './components/Dashboard'
-import UiElements from './components/UiElements'
+import Dashboard from './pages/Dashboard';
+import UiElements from './pages/UiElements';
+import Calendar from './pages/Calendar';
+import DateTimePicker from './pages/DateTimePicker';
+import Components from './pages/Components';
 
 
 export default {
@@ -15,11 +18,25 @@ export default {
             path: '/ui_elements',
             component: UiElements,
             title: 'UI Elements',
-            icon: 'fa fa-user',
+            icon: 'fa fa-user'
+        },
+        {
+            path: '/components',
+            redirect: '/components/calendar',
+            component: Components,
+            title: 'Components',
+            icon: 'fas fa-cubes',
             children: [
-                { path: '/ui_elements/1', title: 'UI Elements 1' },
-                { path: '/ui_elements/2', title: 'UI Elements v2' },
-                { path: '/ui_elements/3', title: 'UI Elements v3' }
+                {
+                    path: '/components/calendar',
+                    title: 'Calendar',
+                    component: Calendar
+                },
+                {
+                    path: '/components/date-time-picker',
+                    title: 'Date/Time Picker',
+                    component: DateTimePicker
+                }
             ]
         }
     ]
