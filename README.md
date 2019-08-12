@@ -6,15 +6,16 @@ My goal for this project is to build it without using jQuery and only using Vue.
 
 ## Platforms being used to build the project
 * Laravel
-* Vue.js
+* Vue
+* Vue Router
 * Tailwind
 
 ## Current packages being used
 * [vue-chartjs](https://vue-chartjs.org/)
 * [vue-full-calendar](https://www.npmjs.com/package/vue-full-calendar)
+* [vue-flatpickr-component](https://www.npmjs.com/package/vue-flatpickr-component)
 
 ## What needs to be done
-* Make it mobile friendly. There are aspects of the layout that aren't mobile friendly yet.
 * Add packages for things such as date/time picker, color picker, autocomplete, etc..
 * Build tailwind components for the following:
     * Panels
