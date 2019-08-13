@@ -7,6 +7,7 @@
                 </div>
                 <div class="card-body p-4">
                     <div class="w-1/2">
+                        <label class="text-xs">Date Time Picker</label>
                         <flat-pickr v-model="date1" :config="config"></flat-pickr>
                     </div>
                 </div>

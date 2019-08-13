@@ -7,10 +7,6 @@
         <title>Laravel</title>
 
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>

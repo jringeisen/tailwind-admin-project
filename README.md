@@ -14,6 +14,7 @@ My goal for this project is to build it without using jQuery and only using Vue.
 * [vue-chartjs](https://vue-chartjs.org/)
 * [vue-full-calendar](https://www.npmjs.com/package/vue-full-calendar)
 * [vue-flatpickr-component](https://www.npmjs.com/package/vue-flatpickr-component)
+* [fontawesome-free](https://fontawesome.com/)
 
 ## What needs to be done
 * Add packages for things such as date/time picker, color picker, autocomplete, etc..

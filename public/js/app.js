@@ -237,6 +237,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -1051,6 +1052,10 @@ var render = function() {
             "div",
             { staticClass: "w-1/2" },
             [
+              _c("label", { staticClass: "text-xs" }, [
+                _vm._v("Date Time Picker")
+              ]),
+              _vm._v(" "),
               _c("flat-pickr", {
                 attrs: { config: _vm.config },
                 model: {
