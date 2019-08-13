@@ -13,7 +13,6 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <script src="https://kit.fontawesome.com/6229d48325.js"></script>
     </head>
     <body>
         <div class="flex flex-col h-screen bg-gray-200" id="app">

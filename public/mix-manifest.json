@@ -1,6 +1,8 @@
 {
-    "/js/app.js": "/js/app.js?id=489cb8b2cd38bfb38878",
-    "/css/app.css": "/css/app.css?id=f3ce899f8f119c3e7848",
-    "/js/manifest.js": "/js/manifest.js?id=3c768977c2574a34506e",
-    "/js/vendor.js": "/js/vendor.js?id=348cd543bf4545f59dd7"
+    "/js/app.js": "/js/app.js?id=22dfdd01d61882d74d17",
+    "/css/app.css": "/css/app.css?id=5d23a894937f1ca8531e",
+    "/js/manifest.js": "/js/manifest.js?id=41f053ba9a94d81b39f8",
+    "/js/vendor.js": "/js/vendor.js?id=48417785c03871919814",
+    "/webfonts/LICENSE.txt": "/webfonts/LICENSE.txt?id=2e3494502db283e8891d",
+    "/webfonts/package.json": "/webfonts/package.json?id=0bd8091aa30eefc416a5"
 }
