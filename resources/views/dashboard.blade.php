@@ -6,11 +6,13 @@
 
         <title>Laravel</title>
 
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
-    <body>
+    <body style="font-family: Inter;">
         <div class="flex flex-col h-screen bg-gray-200" id="app">
             <div class="top-navbar">
                 <topbar-nav />

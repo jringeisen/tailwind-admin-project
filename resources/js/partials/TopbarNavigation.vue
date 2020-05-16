@@ -10,7 +10,7 @@
             </div>
             <div class="px-4 mt-1" v-click-outside="clickedOutsideBell">
                 <i class="fa fa-bell text-xl cursor-pointer" @click.prevent="toggleBell = !toggleBell"></i>
-                <span class="absolute pr-1 pl-1 -mt-8 ml-2 bg-gray-600 rounded-full text-xs text-white">0</span>
+                <span class="absolute px-1 -ml-2 -mt-2 bg-gray-600 rounded-full text-xs text-white">0</span>
                 <ul class="absolute w-64 -ml-56 xl:-ml-24 lg:-ml-24 md:-ml-24">
                     <transition name="slide-fade">
                     <ul class="bg-white px-3 shadow-lg mt-3" v-if="toggleBell">

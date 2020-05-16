@@ -1405,7 +1405,7 @@ var render = function() {
             "span",
             {
               staticClass:
-                "absolute pr-1 pl-1 -mt-8 ml-2 bg-gray-600 rounded-full text-xs text-white"
+                "absolute px-1 -ml-2 -mt-2 bg-gray-600 rounded-full text-xs text-white"
             },
             [_vm._v("0")]
           ),
